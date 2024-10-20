@@ -9,7 +9,9 @@ This is a simple To-Do List application built using React with Vite as the proje
 HOW TO RUN THE APPLICATION
 
 before you start
+
 -Node.js and npm should be installed on your machine.
+
 -Ensure you have Git installed.
 
 Steps:
