@@ -1,0 +1,141 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px #4CAF50;
+}
+
+.taskInput[type='text'] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #4CAF50;
+  outline: none;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.taskInput[type='text']:focus {
+  border-color: #6e836e;
+}
+
+.taskButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.taskButton:hover {
+  background-color: #6e836e;
+}
+
+
+
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  
+  background-color: #E8F5E9;
+  color: #333333;
+  font-weight: 700;
+  padding: 25px;
+  margin: 40px;
+  border-radius: 8px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+span {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #777;
+}
+
+form {
+  display: flex;
+  
+}
+
+button.action-btn {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+button.action-btn:hover {
+  color: #0056b3;
+}
+
+
+button.edit-btn {
+  color: #f0ad4e;
+}
+
+button.edit-btn:hover {
+  color: #ec971f;
+}
+
+button.delete-btn {
+  color: #d9534f;
+}
+
+button.delete-btn:hover {
+  color: #c9302c;
+}
+
+form input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+form button {
+  padding: 5px 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #4cae4c;
+}
